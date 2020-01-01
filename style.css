@@ -1,0 +1,43 @@
+h1{
+    color: red;
+}
+.job-title{
+    font-size: 40px;
+    color: red;
+
+}
+#myTitle{
+    color: seagreen;
+    font-weight: bold;
+    font-style: italic;
+}
+h1,
+.job-title,
+#myTitle{
+    color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+    /* bo dau cham list trong ul li*/
+}
+.my-class{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    background-image: url(avatar.jpg);
+    background-color: deeppink;
+    color: gainsboro;
+
+    font-size: 16px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+
+}
